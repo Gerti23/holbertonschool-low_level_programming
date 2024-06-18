@@ -13,10 +13,7 @@ int main(void)
 char c;
 for (c = 'z'; c >= 'a'; c--)
 {
-if (c != 'q' && c != 'e')
-{
 putchar(c);
-}
 }
 putchar('\n');
 return (0);
