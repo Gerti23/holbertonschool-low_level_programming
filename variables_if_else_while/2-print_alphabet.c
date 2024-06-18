@@ -1,17 +1,20 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char c;
-for(char c = "a"; c <= "z": c ++)
+for (c = 'a'; c <= 'z'; c++)
 {
-    putchar(c);
+putchar(c);
 }
-putchar("\n");
-return(0);
-
+putchar('\n');
+return (0);
 }
