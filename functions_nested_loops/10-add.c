@@ -1,13 +1,13 @@
 #include "main.h"
+
 /**
- * 10-add.c - adds two integers and returns the result
- * @n: the number to extract the last digit from
+ * add - adds two integers and returns the result
+ * @a: the first integer
+ * @b: the second integer
  *
- * Return: the value of the last digit
+ * Return: the sum of the two integers
  */
-int add(int n)
+int add(int a, int b)
 {
-	int number;
-	if (int a , int b)
 	return (a + b);
 }
