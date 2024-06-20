@@ -1,16 +1,14 @@
 #include "main.h"
 /**
- *  int _abs - computes the absolute value of an integer.
- * @n: the number to check
-
- * Return number if number is positive
- * Return -number if number is negative
- */
-int _abs(int number)
+* _abs - computes the absolute value of an integer
+* @n: the integer to compute the absolute value of
+*
+* Return: the absolute value of the integer
+*/
+int _abs(int n)
 {
-	if (number > 0)
-		return (number);
-	else 
-		return (-number);
+if (n < 0)
+return (-n);
+else
+return (n);
 }
-
