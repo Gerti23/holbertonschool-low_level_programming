@@ -5,7 +5,7 @@
 *
 * Return: result if a,b multiplies two integers
 */
-		int mul(int a, int b)
+int mul(int a, int b)
 {
 		int result = a * b;
 			return (result);
