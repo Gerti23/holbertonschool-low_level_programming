@@ -1,11 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdlib.h>
-#include <unistd.h>
-#ifndef MAIN_H
-#define MAIN_H
-
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
